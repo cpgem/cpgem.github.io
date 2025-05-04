@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     '<div class="loading-indicator">Chargement des données...</div>';
 
   // Charger les données JSON
-  fetch('/cpgem/assets/data/concours_data.json')
+  fetch('/assets/data/concours_data.json')
     .then((response) => response.json())
     .then((data) => {
       concoursData = data;
