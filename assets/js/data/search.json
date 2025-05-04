@@ -1,1 +1,242 @@
-[ { "title": "Loi du demi-cercle", "url": "/posts/centrale2021mp1/", "categories": "CONCOURS, PRÉPARATION 2025", "tags": "prodis, alglin, algbil, redmat, matsym", "date": "2025-04-01 00:00:00 +0000", "snippet": " Théorème Théorème fictif du nom de l’auteur du corrigé. de Lucas Théorème fictif du nom de l’auteur du corrigé. de Lucas Théorème fictif du nom de l'auteur du corrigé. de Lucas Théorème fictif...", "content": " Théorème Théorème fictif du nom de l’auteur du corrigé. de Lucas Théorème fictif du nom de l’auteur du corrigé. de Lucas Théorème fictif du nom de l'auteur du corrigé. de Lucas Théorème fictif du nom de l'auteur du corrigé. Corrigé proposé par : Édouard Lucas " }, { "title": "Matrices symplectiques", "url": "/posts/centrale2022mp1/", "categories": "CONCOURS, PRÉPARATION 2025", "tags": "alglin, algbil, calmat, redmat, symplectique", "date": "2025-03-30 01:49:00 +0000", "snippet": " Corrigé proposé par : Jennifer Mirebeau ", "content": " Corrigé proposé par : Jennifer Mirebeau " }, { "title": "Commentaires", "url": "/posts/comments/", "categories": "À propos", "tags": "", "date": "2025-03-26 00:22:00 +0000", "snippet": "Rédiger une commentaire Il faut disposer d’un compte sur GitHub pour pouvoir rédiger un commentaire. Si vous n’en avez pas cliquez sur ce lien pour en créer un.Le site web offre la possibilité de ...", "content": "Rédiger une commentaire Il faut disposer d’un compte sur GitHub pour pouvoir rédiger un commentaire. Si vous n’en avez pas cliquez sur ce lien pour en créer un.Le site web offre la possibilité de rédiger des commentaires en bas de chaque publication. Les commentaires peuvent être riches, avec : les fonctions de base de mise en forme du texte (titres, gras, italique…) ; la possibilité d’insérer des listes numérotées ou à puces ; la possibilité d’insérer du texte mathématique ; la possibilité d’insérer du code informatique ; le texte peut utiliser un formatage Markdown. Le Markdown est un langage très simple de mise en forme de texte riche qui est devenu très populaire au fil du temps. Il est disponible sous plusieurs variantes. Celle qui est utilisée ici est la variante GitHub. Sa page de documentation est disponible iciCode informatiqueMarkdown a été pensé à l’origine pour faciliter l’écriture de documentation pour des projets de programmation. Quoi donc de plus normal qu’il prenne en charge la mise en forme de code informatique avec reconnaissance des mots clés selon le langage utilisé. Il suffit d’ouvrir un block quote avec ``` suivi optionnellement (sur la même ligne) du nom du langage et ensuite de fermer le block par ```. On peut par exemple écrire```pythondef factorial(x): \"\"\"fonction récursive qui calcule la factorielle d'un entier\"\"\" if x == 1 or x == 0: return 1 else: return (x * factorial(x-1))```pour afficherdef factorial(x): \"\"\"fonction récursive qui calcule la factorielle d'un entier\"\"\" if x == 1 or x == 0: return 1 else: return (x * factorial(x-1))Texte mathématiqueGitHub utilise MathJax pour la mise en forme du texte mathématique. Celui-ci accepte la syntaxe LaTeX pour la mise en forme et reconnait les deux modes classique de ce dernier : le mode inline, il suffit de placer la formule entre deux symboles $. La formule est insérée en ligne avec le texte alentour. Par exemple : du texte normal avec une formule en ligne $e^{i\\pi}=-1$ au milieu d'une phrase. Qui donne : du texte normal avec une formule en ligne \\(e^{i\\pi}=-1\\) au milieu d’une phrase le mode display où la formule est centrée sur sa propre ligne pour lui garantir plus de lisibilité. Il faut insérer le code LaTeX dans un block quote avec l’entête math comme dans La fonction Gamma d'euler est définie en tout $x&gt;0$ par```math \\Gamma(x)=\\int_0^{+\\infy}t^{x-1}e^{-t} dt``` La fonction Gamma d’euler est définie en tout \\(x&gt;0\\) par$$\\Gamma(x)=\\int_0^{+\\infty}t^{x-1}e^{-t} dt$$ Pour plus de détails, regarder : écrire des expressions mathématiques sur GitHub. documentation complète de MathJax Si vous êtes intéressés par les capacités de mise en forme de MarkDown, il existe des applications autonomes et des services web qui permettent de rédiger des documents complexes contenant du code informatique et des formules mathématiques qu’on peut ensuite exporter vers différents formats, PDF inclu : MarkText une application disponible pour Linux, MacOS et Windows. Permet d’exporter en PDF et en HTML. de base VScode et capable de visualiser un fichier rédigé en Markdown. Juste cliquer Marp une extension pour VScode qui permet de créer des présentations (de type Powerpoint) en utilisant Markdown et qui permet d’exporter vers du HTML, du PDF ou vers un fichier Powerpoint; " }, { "title": "Espaces nilpotents de matrices", "url": "/posts/ccmp2020mp1/", "categories": "CONCOURS, PRÉPARATION 2025", "tags": "alglin, algbil, calmat, matnil", "date": "2025-03-25 21:58:00 +0000", "snippet": " Le corrigé est rédigé par Ahmed Hamani.", "content": " Le corrigé est rédigé par Ahmed Hamani." }, { "title": "Exponentielle matricielle", "url": "/posts/expmat/", "categories": "PRÉPARATION 2025, CONCENTRATION", "tags": "expmat, alglin, reduc, equdif, caldif, serint, espvecnor", "date": "2025-03-20 03:14:00 +0000", "snippet": "Sujets de concours : exponentielle matricielle une collection de sujets de concours ayant en commun d’aborder l’exponentielle matricielle mais selon différents angles d’étude. Cela inclu l’étude d...", "content": "Sujets de concours : exponentielle matricielle une collection de sujets de concours ayant en commun d’aborder l’exponentielle matricielle mais selon différents angles d’étude. Cela inclu l’étude des propriétés algébriques de l’exponentielle mais aussi certaines de ces propriétés analytiques non triviales. Trois sujets sont proposés : Mines 2022, MP, Maths 2, corrigé proposé par Omar Sadik ; Mines 2020, PSI, Maths 2, corrigé proposé par Castella ; X 2010, MP, Maths I, corrigé proposé par Sadik Boujaida. PrérequisEnsemble, les trois sujets exigent une maîtrise d’une partie assez large du programme. Les notions utilisées incluent : réduction des matrices et calcul matriciel en général ; algèbre bilinéaire ; exponentielle d’une matrice et propriétés de base ; notions de topologie ; séries numériques ; dérivation et intégration des fonctions vectorielles ; équations différentielles linéaires ; calcul différentiel ;Liens pour impression : [PDF] pour tablettes numériques : [PDF] pour smartphones : [PDF]" }, { "title": "Matrices positives et applications", "url": "/posts/matpos/", "categories": "PRÉPARATION 2025, CONCENTRATION", "tags": "alglin, redend, intgen, intpar, prodis, thegra", "date": "2025-03-19 01:52:00 +0000", "snippet": "Exercice et sujets de concours pour s’entrainer Les matrices carrées réelles à coeffcients positives ont des propriétés remarquables et ont fait l’objet d’une étude intensive encore très active. E...", "content": "Exercice et sujets de concours pour s’entrainer Les matrices carrées réelles à coeffcients positives ont des propriétés remarquables et ont fait l’objet d’une étude intensive encore très active. Elles interviennent dans des secteurs très porteurs comme lae chaînes de Markon en théorie des probabilités et en théories des graphes. C’est aussi un thème qui assez fréquement abordé dans les sujets de concours.Dans cette séance on commence par citer les résultats les plus remrquables sous forme d’exercices. Une collection de sujets de concours qui reprennent les mêmes idées (de façon plus détaillée) vous est proposé pour compléter les travaux assistés.Prérequis une bonne maîtrise de la réduction des matrices et du calcul matriciel en général ; intégrales à paramètres ; mathématiques discrètes (dénombrement, ensembles finis, notions sur les graphes …) calcul de probabilité ;Liens pour impression : [PDF] pour tablettes numériques : [PDF] pour smartphones : [PDF]" }, { "title": "Polynômes orthogonaux", "url": "/posts/polorth/", "categories": "PRÉPARATION 2025, CONCENTRATION", "tags": "esppre, polort, intgen, intpar, equdif, alglin, redmat, matpos", "date": "2025-03-16 21:45:00 +0000", "snippet": " Objectif Une collection de sujets de synthèse qui couvrent toutes les propriétés des polynômes orthogonaux. Sont couvertes : les propriétés de base telles que l’existence et les propriétés ...", "content": " Objectif Une collection de sujets de synthèse qui couvrent toutes les propriétés des polynômes orthogonaux. Sont couvertes : les propriétés de base telles que l’existence et les propriétés de récurrence ; leurs caractère en tant que polynômes scindés à racines simples dans \\(\\mathbb R\\) ; équations différentielles auto-adjointes associée ; propriétés de densité dans l’espace préhilbertien considéré ; approximation d’une fonction continue par des polynômes orthogonaux Prérequis Les sujets balayent une grande partie du programme, algèbre et analyse : intégrales sur un intervalle quelconque et intégrales à paramètre ; espaces préhilbertiens et orthogonalité ; propriétés de densité ; équations différentielles ; réduction de matrices ; matrices symétriques positives ; Liens page web : [HTML] pour impression : [PDF] pour tablettes numériques : [PDF] pour smartphones : [PDF] Dans tous les PDF, les intitulés des problèmes ainsi que chaque numéro de question non grisé est un hyperlien qui renvoit de l’énoncé vers sa solution et vice-versa. Dans tous les PDF, les intitulés des problèmes ainsi que chaque numéro de question non grisé est un hyperlien qui renvoit de l'énoncé vers sa solution et vice-versa. Prompt Je ne comprends pourquoi tu suggères d’ajouter du code concernant le parsing Markdown à un script prévu pour s’éxecuter côté client. Par ailleurs le paramètre parse_block_html n’a pas eu d’effet. Je pense que je pourrai régler ce problème moi-même.J’ai deux requêtes : en creusant dans les fichiers du thème, j’ai découvert qu’il utilise Bootstrap/collapse.js dans la page des catégories. Tu veux bien baser aussi le fichier card-collapsible.js sur Bootstrap ; J’aimerai que card-collapsible et card-scrollable s’appliquent seulement au blocs card- et que leur noms soient raccourcis en collapse et scroll (pas de confusion si ce sont des styles définis pour s’appliquer seulement aux blocs card- ). Quand scroll est active, j’aimerai que toute la ligne de first-child soit fixed" }, { "title": "Principe du maximum", "url": "/posts/centrale2018mp2/", "categories": "CONCOURS, PRÉPARATION 2025", "tags": "caldif, equdif, serent, intpar", "date": "2025-03-13 21:09:00 +0000", "snippet": " page web dédié : [HTML] Énoncé avec corrigé : [PDF avec hyperliens] énoncé original : [PDF] rapport de l’épreuve : [PDF] Les solutions sont gracieusement offertes par M.Sadik Omar, professeur...", "content": " page web dédié : [HTML] Énoncé avec corrigé : [PDF avec hyperliens] énoncé original : [PDF] rapport de l’épreuve : [PDF] Les solutions sont gracieusement offertes par M.Sadik Omar, professeur agrégé au lycée Moulay Driss, Fès." }, { "title": "Solutions périodiques d'une équation différentielle linéaire", "url": "/posts/xens2024mpb/", "categories": "CONCOURS, PRÉPARATION 2025", "tags": "equdif, caldif, redmat, expmat", "date": "2025-03-12 19:45:00 +0000", "snippet": " Les solutions sont rédigés avec soin par un opérateur humain.", "content": " Les solutions sont rédigés avec soin par un opérateur humain." }, { "title": "Calcul d'une espérance", "url": "/posts/ccmp2024mp1/", "categories": "CONCOURS, PRÉPARATION 2025", "tags": "intpar, prodis, marale", "date": "2025-03-12 19:45:00 +0000", "snippet": " Détails Les outils utilisés sont ceux standards de l'analyse et du calcul de probabilités : intégrale à paramètre dont le but est détablir la relation $$\\int_0^{+\\infty}\\frac{t^{x-1}}{1+t}\\mathrm...", "content": " Détails Les outils utilisés sont ceux standards de l'analyse et du calcul de probabilités : intégrale à paramètre dont le but est détablir la relation $$\\int_0^{+\\infty}\\frac{t^{x-1}}{1+t}\\mathrm dt=\\frac{\\pi}{\\sin(\\pi x)}$$ utilisation de la relation précédente pour établir l'identité $$\\forall y\\in{}]0,\\pi[,\\;\\frac1{\\sin y}-\\frac1y=\\sum_{n=1}^{+\\infty}(-1)^n\\frac{2y}{y^2-n^2\\pi^2}$$ en déduire la relation$$\\int_{0}^{+\\infty} \\frac{1-\\left( \\cos t \\right)^{2p+1}}{t^{2}} \\, \\mathrm dt = (2p+1) \\int_{0}^{+\\infty} \\left( \\cos t \\right)^{2p} \\frac{\\sin(t)}{t} \\, \\mathrm dt.$$ calcul de l'espérance $E(|S_n|)$ lorsque $S_n$ est la position à l'instant $n$ dans une marche aléatoire sur $\\mathbb Z$.ginale dans le calcul de l'espérence d'une variable aléatoire. Les solutions dans la page dédiée sont générées par le LLM DeepSeek. Elles sont parfois incomplètes et peuvent souffrir d’un manque de précision mais offrent en général un bon apperçu des techniques requises pour répondre à une question." }, { "title": "Comportement asymptotique dans une marche aléatoire", "url": "/posts/ccmp2020mp2/", "categories": "CONCOURS, PRÉPARATION 2025", "tags": "prodis, serent, intgen, marale, fongen", "date": "2025-03-12 19:45:00 +0000", "snippet": "OutilsLes outils utilisés sont ceux standards de l’analyse et du calcul de probabilités : séries entières et leurs comportement asymptotique sur le bord du disque de convergence ainsi que celui de...", "content": "OutilsLes outils utilisés sont ceux standards de l’analyse et du calcul de probabilités : séries entières et leurs comportement asymptotique sur le bord du disque de convergence ainsi que celui de la somme en fonction du comportement des coefficients; fonction génératrice d’une suite (pas nécessairement celle d’une VAD à valeurs dans \\(\\mathbb N\\))Liens page web dédié : [HTML] énoncé original : [PDF] rapport de l’épreuve : [PDF] Les solutions dans la page dédiée sont générées par le LLM DeepSeek. Elles sont parfois incomplètes et peuvent souffrir d’un manque de précision mais offrent en général un bon apperçu des techniques requises pour répondre à une question." }, { "title": "Préparation 2025", "url": "/posts/preparation/", "categories": "PRÉPARATION 2025", "tags": "xens, ccmp, centrale, cnm, ccinp", "date": "2025-03-12 09:31:00 +0000", "snippet": "Phase 1 : analyse et probabilitésSemaine 1 : séries, intégrales et probabilités Mines-Ponts 2020, MP, Maths II Mines-Ponts 2024, MP, Maths ISemaine 2 : équations et calcul différentiels Exercice...", "content": "Phase 1 : analyse et probabilitésSemaine 1 : séries, intégrales et probabilités Mines-Ponts 2020, MP, Maths II Mines-Ponts 2024, MP, Maths ISemaine 2 : équations et calcul différentiels Exercices d’entraînement X-ENS 2024, MP, Maths B Centrale 2018, MP, Maths 2Contration du 16-21 mars Polynômes orthogonaux Matrices positives Exponentielle matriciellePhase 2 : algèbre et probabilitésSemaine 1 Centrale 2022, MP, Maths I Mines 2020, MP, Maths I" }, { "title": "Probabilités discrètes", "url": "/posts/probas/", "categories": "COURS & EXERCICES", "tags": "prodis, valpro, foncgen, serent", "date": "2025-03-10 21:43:00 +0000", "snippet": "Probabilités discrètes Cours avec exercices résolus sur les probabilités discrètes.", "content": "Probabilités discrètes Cours avec exercices résolus sur les probabilités discrètes." }, { "title": "Équations différentielles linéaires", "url": "/posts/eqdiff/", "categories": "COURS & EXERCICES", "tags": "equdif, serent", "date": "2025-03-10 21:20:00 +0000", "snippet": "Présentation Cours avec exercices résolus sur les équations différentielles linéaires. Le cours est augmenté d’une partie descriptive sur les thèmes les plus abordées dans les sujets de concours. ...", "content": "Présentation Cours avec exercices résolus sur les équations différentielles linéaires. Le cours est augmenté d’une partie descriptive sur les thèmes les plus abordées dans les sujets de concours. Les exercices sont séparés en deux sections. Une section sur des exercices d’approfondissements dont le but est d’enrichir le cours par des résultats annexes hors programme. Une autre sur des exercices d’entrainement qui reprennent les mêmes thèmes mais sur lesquels on peut s’exercer à la mise en oeuvre des connaissances acquises à travers les différentes autres parties.Liens Cours : [HTML] Exercices d’approfondissements : [HTML] Exercices d’entraînement : [HTML]" } ]
+[
+  
+  {
+    "title": "Loi du demi-cercle",
+    "url": "/posts/centrale2021mp1/",
+    "categories": "CONCOURS, PRÉPARATION 2025",
+    "tags": "prodis, alglin, algbil, redmat, matsym",
+    "date": "2025-04-01 00:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Théorème  Théorème fictif du nom de l’auteur du corrigé.  de Lucas  Théorème fictif du nom de l’auteur du corrigé. de Lucas Théorème fictif du nom de l'auteur du corrigé. de Lucas Théorème fictif...",
+    "content": "  Théorème  Théorème fictif du nom de l’auteur du corrigé.  de Lucas  Théorème fictif du nom de l’auteur du corrigé. de Lucas Théorème fictif du nom de l'auteur du corrigé. de Lucas Théorème fictif du nom de l'auteur du corrigé.     Corrigé proposé par : Édouard Lucas  "
+  },
+  
+  {
+    "title": "Matrices symplectiques",
+    "url": "/posts/centrale2022mp1/",
+    "categories": "CONCOURS, PRÉPARATION 2025",
+    "tags": "alglin, algbil, calmat, redmat, symplectique",
+    "date": "2025-03-30 01:49:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "     Corrigé proposé par : Jennifer Mirebeau  ",
+    "content": "     Corrigé proposé par : Jennifer Mirebeau  "
+  },
+  
+  {
+    "title": "Commentaires",
+    "url": "/posts/comments/",
+    "categories": "À propos",
+    "tags": "",
+    "date": "2025-03-26 00:22:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Rédiger une commentaire  Il faut disposer d’un compte sur GitHub pour pouvoir rédiger un commentaire. Si vous n’en avez pas cliquez sur ce lien pour en créer un.Le site web offre la possibilité de ...",
+    "content": "Rédiger une commentaire  Il faut disposer d’un compte sur GitHub pour pouvoir rédiger un commentaire. Si vous n’en avez pas cliquez sur ce lien pour en créer un.Le site web offre la possibilité de rédiger des commentaires en bas de chaque publication. Les commentaires peuvent être riches, avec :  les fonctions de base de mise en forme du texte (titres, gras, italique…) ;  la possibilité d’insérer des listes numérotées ou à puces ;  la possibilité d’insérer du texte mathématique ;  la possibilité d’insérer du code informatique ;  le texte peut utiliser un formatage Markdown. Le Markdown est un langage très simple de mise en forme de texte riche qui est devenu très populaire au fil du temps. Il est disponible sous plusieurs variantes. Celle qui est utilisée ici est la variante GitHub. Sa page de documentation est disponible iciCode informatiqueMarkdown a été pensé à l’origine pour faciliter l’écriture de documentation pour des projets de programmation. Quoi donc de plus normal qu’il prenne en charge la mise en forme de code informatique avec reconnaissance des mots clés selon le langage utilisé. Il suffit d’ouvrir un block quote avec ``` suivi optionnellement (sur la même ligne) du nom du langage et ensuite de fermer le block par ```.  On peut par exemple écrire```pythondef factorial(x):    \"\"\"fonction récursive qui calcule        la factorielle d'un entier\"\"\"    if x == 1 or x == 0:        return 1    else:        return (x * factorial(x-1))```pour afficherdef factorial(x):    \"\"\"fonction récursive qui calcule        la factorielle d'un entier\"\"\"    if x == 1 or x == 0:        return 1    else:        return (x * factorial(x-1))Texte mathématiqueGitHub utilise MathJax pour la mise en forme du texte mathématique. Celui-ci accepte la syntaxe LaTeX pour la mise en forme et reconnait les deux modes classique de ce dernier :  le mode inline, il suffit de placer la formule entre deux symboles $. La formule est insérée en ligne avec le texte alentour. Par exemple :    du texte normal avec une formule en ligne $e^{i\\pi}=-1$ au milieu d'une phrase.        Qui donne : du texte normal avec une formule en ligne \\(e^{i\\pi}=-1\\) au milieu d’une phrase    le mode display où la formule est centrée sur sa propre ligne pour lui garantir plus de lisibilité. Il faut insérer le code LaTeX dans un block quote  avec l’entête math comme dans    La fonction Gamma d'euler est définie en tout $x&gt;0$ par```math \\Gamma(x)=\\int_0^{+\\infy}t^{x-1}e^{-t} dt```        La fonction Gamma d’euler est définie en tout \\(x&gt;0\\) par$$\\Gamma(x)=\\int_0^{+\\infty}t^{x-1}e^{-t} dt$$    Pour plus de détails, regarder :      écrire des expressions mathématiques sur GitHub.    documentation complète de MathJax    Si vous êtes intéressés par les capacités de mise en forme de MarkDown, il existe des applications autonomes et des services web qui permettent de rédiger des documents complexes contenant du code informatique et des formules mathématiques qu’on peut ensuite exporter vers différents formats, PDF inclu :      MarkText une application disponible pour Linux, MacOS et Windows. Permet d’exporter en PDF et en HTML.    de base VScode et capable de visualiser un fichier rédigé en Markdown. Juste cliquer    Marp une extension pour VScode qui permet de créer des présentations (de type Powerpoint) en utilisant Markdown et qui permet d’exporter vers du HTML, du PDF ou vers un fichier Powerpoint;  "
+  },
+  
+  {
+    "title": "Espaces nilpotents de matrices",
+    "url": "/posts/ccmp2020mp1/",
+    "categories": "CONCOURS, PRÉPARATION 2025",
+    "tags": "alglin, algbil, calmat, matnil",
+    "date": "2025-03-25 21:58:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Le corrigé est rédigé par Ahmed Hamani.",
+    "content": "  Le corrigé est rédigé par Ahmed Hamani."
+  },
+  
+  {
+    "title": "Exponentielle matricielle",
+    "url": "/posts/expmat/",
+    "categories": "PRÉPARATION 2025, CONCENTRATION",
+    "tags": "expmat, alglin, reduc, equdif, caldif, serint, espvecnor",
+    "date": "2025-03-20 03:14:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Sujets de concours : exponentielle matricielle  une collection de sujets de concours ayant en commun d’aborder l’exponentielle matricielle mais selon différents angles d’étude. Cela inclu l’étude d...",
+    "content": "Sujets de concours : exponentielle matricielle  une collection de sujets de concours ayant en commun d’aborder l’exponentielle matricielle mais selon différents angles d’étude. Cela inclu l’étude des propriétés algébriques de l’exponentielle mais aussi certaines de ces propriétés analytiques non triviales. Trois sujets sont proposés :      Mines 2022, MP, Maths 2, corrigé proposé par Omar Sadik ;    Mines 2020, PSI, Maths 2, corrigé proposé par Castella ;    X 2010, MP, Maths I, corrigé proposé par Sadik Boujaida.  PrérequisEnsemble, les trois sujets exigent une maîtrise d’une partie assez large du programme. Les notions utilisées incluent :  réduction des matrices et calcul matriciel en général ;  algèbre bilinéaire ;  exponentielle d’une matrice et propriétés de base ;  notions de topologie ;  séries numériques ;  dérivation et intégration des fonctions vectorielles ;  équations différentielles linéaires ;  calcul différentiel ;Liens  pour impression : [PDF]  pour tablettes numériques : [PDF]  pour smartphones : [PDF]"
+  },
+  
+  {
+    "title": "Matrices positives et applications",
+    "url": "/posts/matpos/",
+    "categories": "PRÉPARATION 2025, CONCENTRATION",
+    "tags": "alglin, redend, intgen, intpar, prodis, thegra",
+    "date": "2025-03-19 01:52:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Exercice et sujets de concours pour s’entrainer  Les matrices carrées réelles à coeffcients positives ont des propriétés remarquables et ont fait l’objet d’une étude intensive encore très active. E...",
+    "content": "Exercice et sujets de concours pour s’entrainer  Les matrices carrées réelles à coeffcients positives ont des propriétés remarquables et ont fait l’objet d’une étude intensive encore très active. Elles interviennent dans des secteurs très porteurs comme lae chaînes de Markon en théorie des probabilités et en théories des graphes. C’est aussi un thème qui assez fréquement abordé dans les sujets de concours.Dans cette séance on commence par citer les résultats les plus remrquables sous forme d’exercices. Une collection de sujets de concours qui reprennent les mêmes idées (de façon plus détaillée) vous est proposé pour compléter les travaux assistés.Prérequis  une bonne maîtrise de la réduction des matrices et du calcul matriciel en général ;  intégrales à paramètres ;  mathématiques discrètes (dénombrement, ensembles finis, notions sur les graphes …)  calcul de probabilité ;Liens  pour impression : [PDF]  pour tablettes numériques : [PDF]  pour smartphones : [PDF]"
+  },
+  
+  {
+    "title": "Polynômes orthogonaux",
+    "url": "/posts/polorth/",
+    "categories": "PRÉPARATION 2025, CONCENTRATION",
+    "tags": "esppre, polort, intgen, intpar, equdif, alglin, redmat, matpos",
+    "date": "2025-03-16 21:45:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Objectif  Une collection de sujets de synthèse qui couvrent toutes les propriétés des polynômes orthogonaux. Sont couvertes :      les propriétés de base telles que l’existence et les propriétés ...",
+    "content": "  Objectif  Une collection de sujets de synthèse qui couvrent toutes les propriétés des polynômes orthogonaux. Sont couvertes :      les propriétés de base telles que l’existence et les propriétés de récurrence ;    leurs caractère en tant que polynômes scindés à racines simples dans \\(\\mathbb R\\) ;    équations différentielles auto-adjointes associée ;    propriétés de densité dans l’espace préhilbertien considéré ;    approximation d’une fonction continue par des polynômes orthogonaux    Prérequis  Les sujets balayent une grande partie du programme, algèbre et analyse :      intégrales sur un intervalle quelconque et intégrales à paramètre ;    espaces préhilbertiens et orthogonalité ;    propriétés de densité ;    équations différentielles ;    réduction de matrices ;    matrices symétriques positives ;  Liens  page web : [HTML]  pour impression : [PDF]  pour tablettes numériques : [PDF]  pour smartphones : [PDF]  Dans tous les PDF, les intitulés des problèmes ainsi que chaque numéro de question non grisé est un hyperlien qui renvoit de l’énoncé vers sa solution et vice-versa. Dans tous les PDF, les intitulés des problèmes ainsi que chaque numéro de question non grisé est un hyperlien qui renvoit de l'énoncé vers sa solution et vice-versa.  Prompt  Je ne comprends pourquoi tu suggères d’ajouter du code concernant le parsing Markdown à un script prévu pour s’éxecuter côté client. Par ailleurs le paramètre parse_block_html n’a pas eu d’effet. Je pense que je pourrai régler ce problème moi-même.J’ai deux requêtes :      en creusant dans les fichiers du thème, j’ai découvert qu’il utilise Bootstrap/collapse.js dans la page des catégories. Tu veux bien baser aussi le fichier card-collapsible.js sur Bootstrap ;    J’aimerai que card-collapsible et card-scrollable s’appliquent seulement au blocs card- et que leur noms soient raccourcis en collapse et scroll (pas de confusion si ce sont des styles définis pour s’appliquer seulement aux blocs card- ).    Quand scroll est active, j’aimerai que toute la ligne de first-child soit fixed"
+  },
+  
+  {
+    "title": "Principe du maximum",
+    "url": "/posts/centrale2018mp2/",
+    "categories": "CONCOURS, PRÉPARATION 2025",
+    "tags": "caldif, equdif, serent, intpar",
+    "date": "2025-03-13 21:09:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  page web dédié : [HTML]  Énoncé avec corrigé : [PDF avec hyperliens]  énoncé original : [PDF]  rapport de l’épreuve : [PDF]  Les solutions sont gracieusement offertes par M.Sadik Omar, professeur...",
+    "content": "  page web dédié : [HTML]  Énoncé avec corrigé : [PDF avec hyperliens]  énoncé original : [PDF]  rapport de l’épreuve : [PDF]  Les solutions sont gracieusement offertes par M.Sadik Omar, professeur agrégé au lycée Moulay Driss, Fès."
+  },
+  
+  {
+    "title": "Solutions périodiques d'une équation différentielle linéaire",
+    "url": "/posts/xens2024mpb/",
+    "categories": "CONCOURS, PRÉPARATION 2025",
+    "tags": "equdif, caldif, redmat, expmat",
+    "date": "2025-03-12 19:45:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Les solutions sont rédigés avec soin par un opérateur humain.",
+    "content": "  Les solutions sont rédigés avec soin par un opérateur humain."
+  },
+  
+  {
+    "title": "Calcul d'une espérance",
+    "url": "/posts/ccmp2024mp1/",
+    "categories": "CONCOURS, PRÉPARATION 2025",
+    "tags": "intpar, prodis, marale",
+    "date": "2025-03-12 19:45:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": " Détails Les outils utilisés sont ceux standards de l'analyse et du calcul de probabilités :  intégrale à paramètre dont le but est détablir la relation $$\\int_0^{+\\infty}\\frac{t^{x-1}}{1+t}\\mathrm...",
+    "content": " Détails Les outils utilisés sont ceux standards de l'analyse et du calcul de probabilités :  intégrale à paramètre dont le but est détablir la relation $$\\int_0^{+\\infty}\\frac{t^{x-1}}{1+t}\\mathrm dt=\\frac{\\pi}{\\sin(\\pi x)}$$ utilisation de la relation précédente pour établir l'identité $$\\forall y\\in{}]0,\\pi[,\\;\\frac1{\\sin y}-\\frac1y=\\sum_{n=1}^{+\\infty}(-1)^n\\frac{2y}{y^2-n^2\\pi^2}$$ en déduire la relation$$\\int_{0}^{+\\infty} \\frac{1-\\left( \\cos t \\right)^{2p+1}}{t^{2}} \\, \\mathrm dt = (2p+1) \\int_{0}^{+\\infty} \\left( \\cos t \\right)^{2p} \\frac{\\sin(t)}{t} \\, \\mathrm dt.$$ calcul de l'espérance $E(|S_n|)$ lorsque $S_n$ est la position à l'instant $n$ dans une marche aléatoire sur $\\mathbb Z$.ginale dans le calcul de l'espérence d'une variable aléatoire.   Les solutions dans la page dédiée sont générées par le LLM DeepSeek. Elles sont parfois incomplètes et peuvent souffrir d’un manque de précision mais offrent en général un bon apperçu des techniques requises pour répondre à une question."
+  },
+  
+  {
+    "title": "Comportement asymptotique dans une marche aléatoire",
+    "url": "/posts/ccmp2020mp2/",
+    "categories": "CONCOURS, PRÉPARATION 2025",
+    "tags": "prodis, serent, intgen, marale, fongen",
+    "date": "2025-03-12 19:45:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "OutilsLes outils utilisés sont ceux standards de l’analyse et du calcul de probabilités :  séries entières et leurs comportement asymptotique sur le bord du disque de convergence ainsi que celui de...",
+    "content": "OutilsLes outils utilisés sont ceux standards de l’analyse et du calcul de probabilités :  séries entières et leurs comportement asymptotique sur le bord du disque de convergence ainsi que celui de la somme en fonction du comportement des coefficients;  fonction génératrice d’une suite (pas nécessairement celle d’une VAD à valeurs dans \\(\\mathbb N\\))Liens  page web dédié : [HTML]  énoncé original : [PDF]  rapport de l’épreuve : [PDF]  Les solutions dans la page dédiée sont générées par le LLM DeepSeek. Elles sont parfois incomplètes et peuvent souffrir d’un manque de précision mais offrent en général un bon apperçu des techniques requises pour répondre à une question."
+  },
+  
+  {
+    "title": "Préparation 2025",
+    "url": "/posts/preparation/",
+    "categories": "PRÉPARATION 2025",
+    "tags": "xens, ccmp, centrale, cnm, ccinp",
+    "date": "2025-03-12 09:31:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Phase 1 : analyse et probabilitésSemaine 1 : séries, intégrales et probabilités  Mines-Ponts 2020, MP, Maths II  Mines-Ponts 2024, MP, Maths ISemaine 2 : équations et calcul différentiels  Exercice...",
+    "content": "Phase 1 : analyse et probabilitésSemaine 1 : séries, intégrales et probabilités  Mines-Ponts 2020, MP, Maths II  Mines-Ponts 2024, MP, Maths ISemaine 2 : équations et calcul différentiels  Exercices d’entraînement  X-ENS 2024, MP, Maths B  Centrale 2018, MP, Maths 2Contration du 16-21 mars  Polynômes orthogonaux  Matrices positives  Exponentielle matriciellePhase 2 : algèbre et probabilitésSemaine 1  Centrale 2022, MP, Maths I  Mines 2020, MP, Maths I"
+  },
+  
+  {
+    "title": "Probabilités discrètes",
+    "url": "/posts/probas/",
+    "categories": "COURS & EXERCICES",
+    "tags": "prodis, valpro, foncgen, serent",
+    "date": "2025-03-10 21:43:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Probabilités discrètes Cours avec exercices résolus sur les probabilités discrètes.",
+    "content": "Probabilités discrètes Cours avec exercices résolus sur les probabilités discrètes."
+  },
+  
+  {
+    "title": "Équations différentielles linéaires",
+    "url": "/posts/eqdiff/",
+    "categories": "COURS & EXERCICES",
+    "tags": "equdif, serent",
+    "date": "2025-03-10 21:20:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Présentation  Cours avec exercices résolus sur les équations différentielles linéaires. Le cours est augmenté d’une partie descriptive sur les thèmes les plus abordées dans les sujets de concours. ...",
+    "content": "Présentation  Cours avec exercices résolus sur les équations différentielles linéaires. Le cours est augmenté d’une partie descriptive sur les thèmes les plus abordées dans les sujets de concours. Les exercices sont séparés en deux sections. Une section sur des exercices d’approfondissements dont le but est d’enrichir le cours par des résultats annexes hors programme. Une autre sur des exercices d’entrainement qui reprennent les mêmes thèmes mais sur lesquels on peut s’exercer à la mise en oeuvre des connaissances acquises à travers les différentes autres parties.Liens  Cours : [HTML]  Exercices d’approfondissements : [HTML]  Exercices d’entraînement : [HTML]"
+  }
+  
+]
+
