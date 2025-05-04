@@ -1,9 +1,9 @@
 {
-  "baseurl": "/cpgem",
+  "baseurl": "",
   "concours_items": {
     "mines2020mp2": {
       "title": "Comportement asymptotique dans une marche aléatoire",
-      "url": "/cpgem/posts/ccmp2020mp2/",
+      "url": "/posts/ccmp2020mp2/",
       "concours": "CCMP",
       "session": "2020",
       "filiere": "MP",
@@ -32,11 +32,11 @@
       ],
       "pdfbasename": "mines2020mp2",
       "objectif": "L'objectif est d'étudier certains comportements asymptotiques dans une marche aléatoire. On y étudie le temps d'attente du premier retour vers l'origine ainsi que le nombre moyen de points visités par la marche. Le sujet ne se limite pas au cas d'une marche aléatoire sur $\\mathbb Z$ mais traite aussi du cas d'une marche dans le plan.\n",
-      "download_original": "/cpgem/assets/pdf/mines2020mp2_original.pdf"
+      "download_original": "/assets/pdf/mines2020mp2_original.pdf"
     },
     "mines2024mp1": {
       "title": "Calcul d'une espérance",
-      "url": "/cpgem/posts/ccmp2024mp1/",
+      "url": "/posts/ccmp2024mp1/",
       "concours": "CCMP",
       "session": 2024,
       "filiere": "MP",
@@ -57,12 +57,12 @@
       ],
       "pdfbasename": "mines2024mp1",
       "objectif": "L'objectif est d'établir certaines identités à base d'intégrales à paramètres et de sommes de séries de fonctions et ensuite de les utiliser de manière originale dans le calcul de l'espérence d'une variable aléatoire. ",
-      "download_original": "/cpgem/assets/pdf/mines2024mp1_original.pdf",
-      "download_report": "/cpgem/assets/pdf/mines2024mp1_report.pdf"
+      "download_original": "/assets/pdf/mines2024mp1_original.pdf",
+      "download_report": "/assets/pdf/mines2024mp1_report.pdf"
     },
     "xens2024mpb": {
       "title": "Solutions périodiques d'une équation différentielle linéaire",
-      "url": "/cpgem/posts/xens2024mpb/",
+      "url": "/posts/xens2024mpb/",
       "concours": "XENS",
       "session": 2024,
       "filiere": "MP",
@@ -87,15 +87,15 @@
       ],
       "pdfbasename": "xens2024mpb",
       "objectif": "L'objectif est d'étudier dans quelle mesure une équation différentielle dont les coefficients sont périodiques peut avoir des solutions périodiques. Sont traités le cas d'une équation différentielle scalaire normale d'ordre $2$ et celui d'une équation différentielle linéaire du premier ordre.",
-      "download_original": "/cpgem/assets/pdf/xens2024mpb_original.pdf",
-      "download_report": "/cpgem/assets/pdf/xens2024mpb_report.pdf",
-      "download_print": "/cpgem/assets/pdf/xens2024mpb_print.pdf",
-      "download_tablet": "/cpgem/assets/pdf/xens2024mpb_tablet.pdf",
-      "download_phone": "/cpgem/assets/pdf/xens2024mpb_phone.pdf"
+      "download_original": "/assets/pdf/xens2024mpb_original.pdf",
+      "download_report": "/assets/pdf/xens2024mpb_report.pdf",
+      "download_print": "/assets/pdf/xens2024mpb_print.pdf",
+      "download_tablet": "/assets/pdf/xens2024mpb_tablet.pdf",
+      "download_phone": "/assets/pdf/xens2024mpb_phone.pdf"
     },
     "centrale2018mp2": {
       "title": "Principe du maximum",
-      "url": "/cpgem/posts/centrale2018mp2/",
+      "url": "/posts/centrale2018mp2/",
       "concours": "Centrale",
       "session": "2018",
       "filiere": "MP",
@@ -120,12 +120,12 @@
       ],
       "pdfbasename": "centrale2018mp2",
       "objectif": "L'objectif est d'étudier les fonctions dites harmoniques et de démontrer le principe du maximum pour celles-ci. Plusieurs applications en sont proposées : une démonstration du théorème fondamental de l'algèbre et la résolution du problème dit de Dirichlet.",
-      "download_original": "/cpgem/assets/pdf/centrale2018mp2_original.pdf",
-      "download_report": "/cpgem/assets/pdf/centrale2018mp2_report.pdf"
+      "download_original": "/assets/pdf/centrale2018mp2_original.pdf",
+      "download_report": "/assets/pdf/centrale2018mp2_report.pdf"
     },
     "mines2020mp1": {
       "title": "Espaces nilpotents de matrices",
-      "url": "/cpgem/posts/ccmp2020mp1/",
+      "url": "/posts/ccmp2020mp1/",
       "concours": "CCMP",
       "session": "2020",
       "filiere": "MP",
@@ -150,15 +150,15 @@
       ],
       "pdfbasename": "mines2020mp1",
       "objectif": "Le sujet traite de ce qu'on appelle sous-espace nilpotent de l'espace $\\mathcal L(E)$. Il s'agit des sous-espaces vectoriel de $\\mathcal L(E)$ qui sont formés d'endomorphismes nilpotents. L'objectif étant de montrer le théorème de Gerstenhaber qui affirme que la dimension d'un tel espace $\\mathcal V$ ne peut dépasser $\\frac{n(n-1)}2$ et que cette dimension n'est atteint que s'il existe une même base de $E$ dans laquelle les matrices des éléments de $\\mathcal V$ couvrent tous l'ensemble $T_n^{++}(\\mathbb K)$.",
-      "download_original": "/cpgem/assets/pdf/mines2020mp1_original.pdf",
-      "download_report": "/cpgem/assets/pdf/mines2020mp1_report.pdf",
-      "download_print": "/cpgem/assets/pdf/mines2020mp1_print.pdf",
-      "download_tablet": "/cpgem/assets/pdf/mines2020mp1_tablet.pdf",
-      "download_phone": "/cpgem/assets/pdf/mines2020mp1_phone.pdf"
+      "download_original": "/assets/pdf/mines2020mp1_original.pdf",
+      "download_report": "/assets/pdf/mines2020mp1_report.pdf",
+      "download_print": "/assets/pdf/mines2020mp1_print.pdf",
+      "download_tablet": "/assets/pdf/mines2020mp1_tablet.pdf",
+      "download_phone": "/assets/pdf/mines2020mp1_phone.pdf"
     },
     "centrale2022mp1": {
       "title": "Matrices symplectiques",
-      "url": "/cpgem/posts/centrale2022mp1/",
+      "url": "/posts/centrale2022mp1/",
       "concours": "Centrale",
       "session": "2022",
       "filiere": "MP",
@@ -187,15 +187,15 @@
       ],
       "pdfbasename": "centrale2022mp1",
       "objectif": "Le sujet traite des matrices symplectiques. Un thème qui est revenu dans beaucoup de sujets de concours ces dernières années. Il est abordé dans le sujet de manière assez exhaustive.",
-      "download_original": "/cpgem/assets/pdf/centrale2022mp1_original.pdf",
-      "download_report": "/cpgem/assets/pdf/centrale2022mp1_report.pdf",
-      "download_print": "/cpgem/assets/pdf/centrale2022mp1_print.pdf",
-      "download_tablet": "/cpgem/assets/pdf/centrale2022mp1_tablet.pdf",
-      "download_phone": "/cpgem/assets/pdf/centrale2022mp1_phone.pdf"
+      "download_original": "/assets/pdf/centrale2022mp1_original.pdf",
+      "download_report": "/assets/pdf/centrale2022mp1_report.pdf",
+      "download_print": "/assets/pdf/centrale2022mp1_print.pdf",
+      "download_tablet": "/assets/pdf/centrale2022mp1_tablet.pdf",
+      "download_phone": "/assets/pdf/centrale2022mp1_phone.pdf"
     },
     "centrale2021mp1": {
       "title": "Loi du demi-cercle",
-      "url": "/cpgem/posts/centrale2021mp1/",
+      "url": "/posts/centrale2021mp1/",
       "concours": "Centrale",
       "session": "2021",
       "filiere": "MP",
@@ -224,11 +224,11 @@
       ],
       "pdfbasename": "centrale2021mp1",
       "objectif": "Le sujet établit la loi dite du demi-cercle. Il s'agit d'étudier le comportement asymptotique des valeurs propres d'une matrice symétrique dont les coefficients sont des variables aléatoires identiquement distribuées.",
-      "download_original": "/cpgem/assets/pdf/centrale2021mp1_original.pdf",
-      "download_report": "/cpgem/assets/pdf/centrale2021mp1_report.pdf",
-      "download_print": "/cpgem/assets/pdf/centrale2021mp1_print.pdf",
-      "download_tablet": "/cpgem/assets/pdf/centrale2021mp1_tablet.pdf",
-      "download_phone": "/cpgem/assets/pdf/centrale2021mp1_phone.pdf"
+      "download_original": "/assets/pdf/centrale2021mp1_original.pdf",
+      "download_report": "/assets/pdf/centrale2021mp1_report.pdf",
+      "download_print": "/assets/pdf/centrale2021mp1_print.pdf",
+      "download_tablet": "/assets/pdf/centrale2021mp1_tablet.pdf",
+      "download_phone": "/assets/pdf/centrale2021mp1_phone.pdf"
     }
   },
   "principale": [
@@ -241,101 +241,33 @@
     "centrale2021mp1"
   ],
   "by_tag": {
-    "prodis": [
-      "mines2020mp2",
-      "mines2024mp1",
-      "centrale2021mp1"
-    ],
-    "serent": [
-      "mines2020mp2",
-      "centrale2018mp2"
-    ],
-    "intgen": [
-      "mines2020mp2"
-    ],
-    "marale": [
-      "mines2020mp2",
-      "mines2024mp1"
-    ],
-    "fongen": [
-      "mines2020mp2"
-    ],
-    "intpar": [
-      "mines2024mp1",
-      "centrale2018mp2"
-    ],
-    "equdif": [
-      "xens2024mpb",
-      "centrale2018mp2"
-    ],
-    "caldif": [
-      "xens2024mpb",
-      "centrale2018mp2"
-    ],
-    "redmat": [
-      "xens2024mpb",
-      "centrale2022mp1",
-      "centrale2021mp1"
-    ],
-    "expmat": [
-      "xens2024mpb"
-    ],
-    "alglin": [
-      "mines2020mp1",
-      "centrale2022mp1",
-      "centrale2021mp1"
-    ],
-    "algbil": [
-      "mines2020mp1",
-      "centrale2022mp1",
-      "centrale2021mp1"
-    ],
-    "calmat": [
-      "mines2020mp1",
-      "centrale2022mp1"
-    ],
-    "matnil": [
-      "mines2020mp1"
-    ],
-    "symplectique": [
-      "centrale2022mp1"
-    ],
-    "matsym": [
-      "centrale2021mp1"
-    ]
+    "prodis": ["mines2020mp2", "mines2024mp1", "centrale2021mp1"],
+    "serent": ["mines2020mp2", "centrale2018mp2"],
+    "intgen": ["mines2020mp2"],
+    "marale": ["mines2020mp2", "mines2024mp1"],
+    "fongen": ["mines2020mp2"],
+    "intpar": ["mines2024mp1", "centrale2018mp2"],
+    "equdif": ["xens2024mpb", "centrale2018mp2"],
+    "caldif": ["xens2024mpb", "centrale2018mp2"],
+    "redmat": ["xens2024mpb", "centrale2022mp1", "centrale2021mp1"],
+    "expmat": ["xens2024mpb"],
+    "alglin": ["mines2020mp1", "centrale2022mp1", "centrale2021mp1"],
+    "algbil": ["mines2020mp1", "centrale2022mp1", "centrale2021mp1"],
+    "calmat": ["mines2020mp1", "centrale2022mp1"],
+    "matnil": ["mines2020mp1"],
+    "symplectique": ["centrale2022mp1"],
+    "matsym": ["centrale2021mp1"]
   },
   "by_concours": {
-    "CCMP": [
-      "mines2020mp2",
-      "mines2024mp1",
-      "mines2020mp1"
-    ],
-    "XENS": [
-      "xens2024mpb"
-    ],
-    "Centrale": [
-      "centrale2018mp2",
-      "centrale2022mp1",
-      "centrale2021mp1"
-    ]
+    "CCMP": ["mines2020mp2", "mines2024mp1", "mines2020mp1"],
+    "XENS": ["xens2024mpb"],
+    "Centrale": ["centrale2018mp2", "centrale2022mp1", "centrale2021mp1"]
   },
   "by_session": {
-    "2020": [
-      "mines2020mp2",
-      "mines2020mp1"
-    ],
-    "2024": [
-      "mines2024mp1",
-      "xens2024mpb"
-    ],
-    "2018": [
-      "centrale2018mp2"
-    ],
-    "2022": [
-      "centrale2022mp1"
-    ],
-    "2021": [
-      "centrale2021mp1"
-    ]
+    "2020": ["mines2020mp2", "mines2020mp1"],
+    "2024": ["mines2024mp1", "xens2024mpb"],
+    "2018": ["centrale2018mp2"],
+    "2022": ["centrale2022mp1"],
+    "2021": ["centrale2021mp1"]
   }
 }
