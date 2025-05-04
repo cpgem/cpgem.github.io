@@ -241,33 +241,101 @@
     "centrale2021mp1"
   ],
   "by_tag": {
-    "prodis": ["mines2020mp2", "mines2024mp1", "centrale2021mp1"],
-    "serent": ["mines2020mp2", "centrale2018mp2"],
-    "intgen": ["mines2020mp2"],
-    "marale": ["mines2020mp2", "mines2024mp1"],
-    "fongen": ["mines2020mp2"],
-    "intpar": ["mines2024mp1", "centrale2018mp2"],
-    "equdif": ["xens2024mpb", "centrale2018mp2"],
-    "caldif": ["xens2024mpb", "centrale2018mp2"],
-    "redmat": ["xens2024mpb", "centrale2022mp1", "centrale2021mp1"],
-    "expmat": ["xens2024mpb"],
-    "alglin": ["mines2020mp1", "centrale2022mp1", "centrale2021mp1"],
-    "algbil": ["mines2020mp1", "centrale2022mp1", "centrale2021mp1"],
-    "calmat": ["mines2020mp1", "centrale2022mp1"],
-    "matnil": ["mines2020mp1"],
-    "symplectique": ["centrale2022mp1"],
-    "matsym": ["centrale2021mp1"]
+    "prodis": [
+      "mines2020mp2",
+      "mines2024mp1",
+      "centrale2021mp1"
+    ],
+    "serent": [
+      "mines2020mp2",
+      "centrale2018mp2"
+    ],
+    "intgen": [
+      "mines2020mp2"
+    ],
+    "marale": [
+      "mines2020mp2",
+      "mines2024mp1"
+    ],
+    "fongen": [
+      "mines2020mp2"
+    ],
+    "intpar": [
+      "mines2024mp1",
+      "centrale2018mp2"
+    ],
+    "equdif": [
+      "xens2024mpb",
+      "centrale2018mp2"
+    ],
+    "caldif": [
+      "xens2024mpb",
+      "centrale2018mp2"
+    ],
+    "redmat": [
+      "xens2024mpb",
+      "centrale2022mp1",
+      "centrale2021mp1"
+    ],
+    "expmat": [
+      "xens2024mpb"
+    ],
+    "alglin": [
+      "mines2020mp1",
+      "centrale2022mp1",
+      "centrale2021mp1"
+    ],
+    "algbil": [
+      "mines2020mp1",
+      "centrale2022mp1",
+      "centrale2021mp1"
+    ],
+    "calmat": [
+      "mines2020mp1",
+      "centrale2022mp1"
+    ],
+    "matnil": [
+      "mines2020mp1"
+    ],
+    "symplectique": [
+      "centrale2022mp1"
+    ],
+    "matsym": [
+      "centrale2021mp1"
+    ]
   },
   "by_concours": {
-    "CCMP": ["mines2020mp2", "mines2024mp1", "mines2020mp1"],
-    "XENS": ["xens2024mpb"],
-    "Centrale": ["centrale2018mp2", "centrale2022mp1", "centrale2021mp1"]
+    "CCMP": [
+      "mines2020mp2",
+      "mines2024mp1",
+      "mines2020mp1"
+    ],
+    "XENS": [
+      "xens2024mpb"
+    ],
+    "Centrale": [
+      "centrale2018mp2",
+      "centrale2022mp1",
+      "centrale2021mp1"
+    ]
   },
   "by_session": {
-    "2020": ["mines2020mp2", "mines2020mp1"],
-    "2024": ["mines2024mp1", "xens2024mpb"],
-    "2018": ["centrale2018mp2"],
-    "2022": ["centrale2022mp1"],
-    "2021": ["centrale2021mp1"]
+    "2020": [
+      "mines2020mp2",
+      "mines2020mp1"
+    ],
+    "2024": [
+      "mines2024mp1",
+      "xens2024mpb"
+    ],
+    "2018": [
+      "centrale2018mp2"
+    ],
+    "2022": [
+      "centrale2022mp1"
+    ],
+    "2021": [
+      "centrale2021mp1"
+    ]
   }
 }
