@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://texbouja.github.io/cpgem/cpgem/sitemap.xml
+Sitemap: https://cpgem.github.io/sitemap.xml
