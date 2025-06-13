@@ -1,1 +1,127 @@
-/*! Source Sans Pro */@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;font-display:swap;src:url(Source_Sans_Pro/SourceSansPro-Regular.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:600;font-display:swap;src:url(Source_Sans_Pro/SourceSansPro-SemiBold.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;font-display:swap;src:url(Source_Sans_Pro/SourceSansPro-Bold.ttf) format('truetype')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;font-display:swap;src:url(Source_Sans_Pro/SourceSansPro-Black.ttf) format('truetype')}/*! Lato */@font-face{font-family:Lato;font-style:normal;font-weight:400;font-display:swap;src:url(Lato/Lato-Regular.ttf) format('truetype')}
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url(otf/FiraSans-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(otf/FiraSans-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(otf/FiraSans-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url(otf/FiraSans-LightItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url(otf/FiraSans-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url(otf/FiraSans-BoldItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url(otf/FiraSans-ExtraBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+  src: url(otf/FiraSans-ExtraBoldItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(otf/FiraSansCondensed-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(otf/FiraSansCondensed-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url(otf/FiraSansCondensed-Italic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url(otf/FiraSansCondensed-BoldItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url(otf/FiraSansCondensed-ExtraBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed";
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+  src: url(otf/FiraSansCondensed-ExtraBoldItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(otf/FiraMono-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(otf/FiraMono-Bold.otf) format("opentype");
+}

@@ -59,7 +59,7 @@ Static assets (libraries/plugins/web-fonts) required by the [_Chirpy_][chirpy] b
 | [Simple-Jekyll-Search][simple-jekyll-search]             |  `1.10.0` |
 | [Tocbot][tocbot]                                         |  `4.32.2` |
 
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy
+[chirpy]: https://github.com/texbouja/jekyll-theme-cpgem
 
 <!-- deps -->
 

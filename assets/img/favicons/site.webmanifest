@@ -3,7 +3,7 @@
 {
   "name": "CPGEM",
   "short_name": "CPGEM",
-  "description": "Site web pour les maths en classes préparatoires. Simple mais moderne et efficace. Accessible et libre, pour toujours.",
+  "description": "Site web dédié aux mathématiques enseignées dans les classes préparatoires scientifiques.",
   "icons": [
     {
       "src": "/assets/img/favicons/android-chrome-192x192.png",

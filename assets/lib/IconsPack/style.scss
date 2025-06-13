@@ -1,0 +1,465 @@
+@use "variables" as *;
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rpb01p');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?rpb01p#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?rpb01p') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?rpb01p') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?rpb01p##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ip {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ip-file_download {
+  &:before {
+    content: $ip-file_download; 
+  }
+}
+.ip-folder {
+  &:before {
+    content: $ip-folder; 
+  }
+}
+.ip-computer {
+  &:before {
+    content: $ip-computer; 
+  }
+}
+.ip-phone_android {
+  &:before {
+    content: $ip-phone_android; 
+  }
+}
+.ip-tablet_android {
+  &:before {
+    content: $ip-tablet_android; 
+  }
+}
+.ip-local_library {
+  &:before {
+    content: $ip-local_library; 
+  }
+}
+.ip-local_printshop {
+  &:before {
+    content: $ip-local_printshop; 
+  }
+}
+.ip-school {
+  &:before {
+    content: $ip-school; 
+  }
+}
+.ip-radio_button_on {
+  &:before {
+    content: $ip-radio_button_on; 
+  }
+}
+.ip-language {
+  &:before {
+    content: $ip-language; 
+  }
+}
+.ip-list {
+  &:before {
+    content: $ip-list; 
+  }
+}
+.ip-tab {
+  &:before {
+    content: $ip-tab; 
+  }
+}
+.ip-menu_open {
+  &:before {
+    content: $ip-menu_open; 
+  }
+}
+.ip-view_sidebar {
+  &:before {
+    content: $ip-view_sidebar; 
+  }
+}
+.ip-tag {
+  &:before {
+    content: $ip-tag; 
+  }
+}
+.ip-tag1 {
+  &:before {
+    content: $ip-tag1; 
+  }
+}
+.ip-link {
+  &:before {
+    content: $ip-link; 
+  }
+}
+.ip-phone {
+  &:before {
+    content: $ip-phone; 
+  }
+}
+.ip-tablet {
+  &:before {
+    content: $ip-tablet; 
+  }
+}
+.ip-monitor {
+  &:before {
+    content: $ip-monitor; 
+  }
+}
+.ip-coffee {
+  &:before {
+    content: $ip-coffee; 
+  }
+}
+.ip-chart {
+  &:before {
+    content: $ip-chart; 
+  }
+}
+.ip-chart1 {
+  &:before {
+    content: $ip-chart1; 
+  }
+}
+.ip-alarm {
+  &:before {
+    content: $ip-alarm; 
+  }
+}
+.ip-graduate {
+  &:before {
+    content: $ip-graduate; 
+  }
+}
+.ip-medal {
+  &:before {
+    content: $ip-medal; 
+  }
+}
+.ip-medal1 {
+  &:before {
+    content: $ip-medal1; 
+  }
+}
+.ip-umbrella {
+  &:before {
+    content: $ip-umbrella; 
+  }
+}
+.ip-streetlight {
+  &:before {
+    content: $ip-streetlight; 
+  }
+}
+.ip-bomb {
+  &:before {
+    content: $ip-bomb; 
+  }
+}
+.ip-megaphone {
+  &:before {
+    content: $ip-megaphone; 
+  }
+}
+.ip-megaphone1 {
+  &:before {
+    content: $ip-megaphone1; 
+  }
+}
+.ip-lamp {
+  &:before {
+    content: $ip-lamp; 
+  }
+}
+.ip-lamp1 {
+  &:before {
+    content: $ip-lamp1; 
+  }
+}
+.ip-diamond {
+  &:before {
+    content: $ip-diamond; 
+  }
+}
+.ip-download {
+  &:before {
+    content: $ip-download; 
+  }
+}
+.ip-stats {
+  &:before {
+    content: $ip-stats; 
+  }
+}
+.ip-stats1 {
+  &:before {
+    content: $ip-stats1; 
+  }
+}
+.ip-printer {
+  &:before {
+    content: $ip-printer; 
+  }
+}
+.ip-globe {
+  &:before {
+    content: $ip-globe; 
+  }
+}
+.ip-tags {
+  &:before {
+    content: $ip-tags; 
+  }
+}
+.ip-pencil {
+  &:before {
+    content: $ip-pencil; 
+  }
+}
+.ip-chain {
+  &:before {
+    content: $ip-chain; 
+  }
+}
+.ip-link1 {
+  &:before {
+    content: $ip-link1; 
+  }
+}
+.ip-home2 {
+  &:before {
+    content: $ip-home2; 
+  }
+}
+.ip-file-text {
+  &:before {
+    content: $ip-file-text; 
+  }
+}
+.ip-stack {
+  &:before {
+    content: $ip-stack; 
+  }
+}
+.ip-price-tag {
+  &:before {
+    content: $ip-price-tag; 
+  }
+}
+.ip-price-tags {
+  &:before {
+    content: $ip-price-tags; 
+  }
+}
+.ip-printer1 {
+  &:before {
+    content: $ip-printer1; 
+  }
+}
+.ip-display {
+  &:before {
+    content: $ip-display; 
+  }
+}
+.ip-mobile {
+  &:before {
+    content: $ip-mobile; 
+  }
+}
+.ip-mobile2 {
+  &:before {
+    content: $ip-mobile2; 
+  }
+}
+.ip-tablet1 {
+  &:before {
+    content: $ip-tablet1; 
+  }
+}
+.ip-download1 {
+  &:before {
+    content: $ip-download1; 
+  }
+}
+.ip-upload {
+  &:before {
+    content: $ip-upload; 
+  }
+}
+.ip-undo2 {
+  &:before {
+    content: $ip-undo2; 
+  }
+}
+.ip-redo2 {
+  &:before {
+    content: $ip-redo2; 
+  }
+}
+.ip-forward {
+  &:before {
+    content: $ip-forward; 
+  }
+}
+.ip-reply {
+  &:before {
+    content: $ip-reply; 
+  }
+}
+.ip-quotes-left {
+  &:before {
+    content: $ip-quotes-left; 
+  }
+}
+.ip-quotes-right {
+  &:before {
+    content: $ip-quotes-right; 
+  }
+}
+.ip-hour-glass {
+  &:before {
+    content: $ip-hour-glass; 
+  }
+}
+.ip-equalizer {
+  &:before {
+    content: $ip-equalizer; 
+  }
+}
+.ip-cog {
+  &:before {
+    content: $ip-cog; 
+  }
+}
+.ip-magic-wand {
+  &:before {
+    content: $ip-magic-wand; 
+  }
+}
+.ip-pie-chart {
+  &:before {
+    content: $ip-pie-chart; 
+  }
+}
+.ip-stats-dots {
+  &:before {
+    content: $ip-stats-dots; 
+  }
+}
+.ip-stats-bars {
+  &:before {
+    content: $ip-stats-bars; 
+  }
+}
+.ip-trophy {
+  &:before {
+    content: $ip-trophy; 
+  }
+}
+.ip-rocket {
+  &:before {
+    content: $ip-rocket; 
+  }
+}
+.ip-fire {
+  &:before {
+    content: $ip-fire; 
+  }
+}
+.ip-power {
+  &:before {
+    content: $ip-power; 
+  }
+}
+.ip-sphere {
+  &:before {
+    content: $ip-sphere; 
+  }
+}
+.ip-link11 {
+  &:before {
+    content: $ip-link11; 
+  }
+}
+.ip-contrast {
+  &:before {
+    content: $ip-contrast; 
+  }
+}
+.ip-star-full {
+  &:before {
+    content: $ip-star-full; 
+  }
+}
+.ip-checkmark {
+  &:before {
+    content: $ip-checkmark; 
+  }
+}
+.ip-ctrl {
+  &:before {
+    content: $ip-ctrl; 
+  }
+}
+.ip-checkbox-checked {
+  &:before {
+    content: $ip-checkbox-checked; 
+  }
+}
+.ip-radio-checked {
+  &:before {
+    content: $ip-radio-checked; 
+  }
+}
+.ip-github {
+  &:before {
+    content: $ip-github; 
+  }
+}
+.ip-tux {
+  &:before {
+    content: $ip-tux; 
+  }
+}
+.ip-appleinc {
+  &:before {
+    content: $ip-appleinc; 
+  }
+}
+.ip-windows8 {
+  &:before {
+    content: $ip-windows8; 
+  }
+}
+.ip-linkedin {
+  &:before {
+    content: $ip-linkedin; 
+  }
+}
+.ip-file-pdf {
+  &:before {
+    content: $ip-file-pdf; 
+  }
+}
+

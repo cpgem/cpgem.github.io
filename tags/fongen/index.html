@@ -32,16 +32,17 @@
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="fongen" />
 <meta property="og:locale" content="fr_FR" />
-<meta name="description" content="Site web pour les maths en classes préparatoires. Simple mais moderne et efficace. Accessible et libre, pour toujours." />
-<meta property="og:description" content="Site web pour les maths en classes préparatoires. Simple mais moderne et efficace. Accessible et libre, pour toujours." />
-<link rel="canonical" href="https://cpgem.github.io/tags/fongen/" />
-<meta property="og:url" content="https://cpgem.github.io/tags/fongen/" />
+<meta name="description" content="Site web dédié aux mathématiques enseignées dans les classes préparatoires scientifiques." />
+<meta property="og:description" content="Site web dédié aux mathématiques enseignées dans les classes préparatoires scientifiques." />
+<link rel="canonical" href="http://localhost:4000/tags/fongen/" />
+<meta property="og:url" content="http://localhost:4000/tags/fongen/" />
 <meta property="og:site_name" content="CPGEM" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="fongen" />
+<meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Site web pour les maths en classes préparatoires. Simple mais moderne et efficace. Accessible et libre, pour toujours.","headline":"fongen","url":"https://cpgem.github.io/tags/fongen/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Site web dédié aux mathématiques enseignées dans les classes préparatoires scientifiques.","headline":"fongen","url":"http://localhost:4000/tags/fongen/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -71,26 +72,6 @@
 
   <!-- Resource Hints -->
   
-    
-      
-        <link rel="preconnect" href="https://fonts.googleapis.com" >
-      
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
-      
-    
-      
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" >
-      
-    
-      
-        <link rel="preconnect" href="https://cdn.jsdelivr.net" >
-      
-        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
-      
-    
-  
 
   <!-- Bootstrap -->
   
@@ -98,13 +79,13 @@
   
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
+  <link rel="stylesheet" href="/assets/css/jekyll-theme-cpgem.css">
 
   <!-- Web Font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
+  <link rel="stylesheet" href="/assets/lib/fonts/main.css">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="/assets/lib/fontawesome-free/css/all.min.css">
 
   <!-- 3rd-party Dependencies -->
 
@@ -142,43 +123,26 @@
 
 
   
-    
-
-    
-
+    <script defer src="/assets/lib/simple-jekyll-search/simple-jekyll-search.min.js"></script>
   
 
   
-    
-
-    
-
+    <script defer src="/assets/lib/dayjs/dayjs.min.js"></script>
   
 
   
-    
-
-    
-
+    <script defer src="/assets/lib/dayjs/locale/en.js"></script>
   
 
   
-    
-
-    
-
+    <script defer src="/assets/lib/dayjs/plugin/relativeTime.js"></script>
   
 
   
-    
-
-    
-
+    <script defer src="/assets/lib/dayjs/plugin/localizedFormat.js"></script>
   
 
 
-
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/fr.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -192,11 +156,6 @@
 <!-- Pageviews -->
 
 
-
-<script src="/assets/js/carte-collapsible.js" defer></script>
-
-
-
   
 
   <!-- A placeholder to allow defining custom metadata -->
@@ -204,15 +163,26 @@
 </head>
 
 
-  <body>
+    <body>
     <!-- The Side Bar -->
 
-<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+<aside
+  aria-label="Sidebar"
+  id="sidebar"
+  class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle"><img src="/assets/img/favicons/favicon.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+    <a
+      href="/"
+      id="avatar"
+      class="rounded-circle"><img
+          src="/commons/avatar.jpg"
+          width="112"
+          height="112"
+          alt="avatar"
+          onerror="this.style.display='none'"></a>
 
     <a class="site-title d-block" href="/">CPGEM</a>
-    <p class="site-subtitle fst-italic mb-0">Maths en Prépas</p>
+    <p class="site-subtitle fst-italic mb-0">Site sur les Maths en CPGE</p>
   </header>
   <!-- .profile-wrapper -->
 
@@ -231,8 +201,16 @@
           <a href="/categories/" class="nav-link">
             <i class="fa-fw fas fa-stream"></i>
             
-
             <span>CATÉGORIES</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/cours/" class="nav-link">
+            <i class="fa-fw fas fa-book-open-reader"></i>
+            
+            <span>COURS</span>
           </a>
         </li>
         <!-- .nav-item -->
@@ -241,18 +219,7 @@
           <a href="/concours/" class="nav-link">
             <i class="fa-fw fas fa-medal"></i>
             
-
-            <span>CONCOURS</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
-      
-        <li class="nav-item">
-          <a href="/cours/" class="nav-link">
-            <i class="fa-fw fas fa-book"></i>
-            
-
-            <span>COURS</span>
+            <span>SUJETS DE CONCOURS</span>
           </a>
         </li>
         <!-- .nav-item -->
@@ -261,7 +228,6 @@
           <a href="/tags/" class="nav-link">
             <i class="fa-fw fas fa-tags"></i>
             
-
             <span>TAGS</span>
           </a>
         </li>
@@ -271,7 +237,6 @@
           <a href="/archives/" class="nav-link">
             <i class="fa-fw fas fa-archive"></i>
             
-
             <span>ARCHIVES</span>
           </a>
         </li>
@@ -281,7 +246,6 @@
           <a href="/about/" class="nav-link">
             <i class="fa-fw fas fa-info-circle"></i>
             
-
             <span>À PROPOS</span>
           </a>
         </li>
@@ -291,15 +255,7 @@
   </nav>
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
-    
-      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-        <i class="fas fa-adjust"></i>
-      </button>
 
-      
-        <span class="icon-border"></span>
-      
-    
 
     
       
@@ -309,19 +265,34 @@
           href="https://github.com/texbouja"
           aria-label="github"
           
-
           
-            target="_blank"
-            
+          target="_blank"
           
-
           
-
           
-            rel="noopener noreferrer"
           
-        >
+          rel="noopener noreferrer"
+          >
           <i class="fab fa-github"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://twitter.com/twitter_username"
+          aria-label="twitter"
+          
+          
+          target="_blank"
+          
+          
+          
+          
+          rel="noopener noreferrer"
+          >
+          <i class="fa-brands fa-x-twitter"></i>
         </a>
       
     
@@ -332,13 +303,9 @@
           href="javascript:location.href = 'mailto:' + ['ibouja','gmail.com'].join('@')"
           aria-label="email"
           
-
           
-
           
-
-          
-        >
+          >
           <i class="fas fa-envelope"></i>
         </a>
       
@@ -350,36 +317,28 @@
           href="/feed.xml"
           aria-label="rss"
           
-
           
-
           
-
-          
-        >
+          >
           <i class="fas fa-rss"></i>
         </a>
       
     
   </div>
-  <!-- .sidebar-bottom -->
+<!-- .sidebar-bottom -->
 </aside>
 <!-- #sidebar -->
+    <!-- The Top Bar -->
 
-
-    <div id="main-wrapper" class="d-flex justify-content-center">
-      <div class="container d-flex flex-column px-xxl-5">
-        <!-- The Top Bar -->
-
-<header id="topbar-wrapper" aria-label="Top Bar">
-  <div
-    id="topbar"
-    class="d-flex align-items-center justify-content-between px-lg-3 h-100"
-  >
+<header
+  id="topbar-wrapper"
+  class="flex-shrink-0"
+  aria-label="Top Bar">
+  <div id="topbar" class="d-flex align-items-center justify-content-between px-lg-3 h-100">
     <nav id="breadcrumb" aria-label="Breadcrumb">
       
 
-      
+        
         
           
             <span>
@@ -405,32 +364,60 @@
     </nav>
     <!-- endof #breadcrumb -->
 
-    <button type="button" id="sidebar-trigger" class="btn btn-link">
+    <button
+      type="button"
+      id="sidebar-trigger"
+      class="btn btn-link-custom"
+      aria-label="Sidebar">
       <i class="fas fa-bars fa-fw"></i>
     </button>
 
     <div id="topbar-title">
-      Tag
+      <span class="label text-truncate">
+        Tag
+      </span>
     </div>
 
-    <button type="button" id="search-trigger" class="btn btn-link">
+    <div class="topbar-stretcher"></div>
+
+    <button
+      type="button"
+      id="search-trigger"
+      class="btn btn-link-custom"
+      aria-label="Search">
       <i class="fas fa-search fa-fw"></i>
     </button>
 
     <search id="search" class="align-items-center ms-3 ms-lg-0">
       <i class="fas fa-search fa-fw"></i>
       <input
-        class="form-control"
+        class="form-control label"
         id="search-input"
         type="search"
         aria-label="search"
         autocomplete="off"
-        placeholder="Recherche..."
-      >
+        placeholder="Dans le site...">
     </search>
-    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">Annuler</button>
+    <button
+      type="button"
+      class="btn btn-link text-decoration-none"
+      id="search-cancel">
+      <span class="fas fa-close fa-fw"></span>
+    </button>
+
+    
+      <button
+        type="button"
+        class="btn btn-link-custom"
+        aria-label="Switch Mode"
+        id="mode-toggle">
+        <i class="fas fa-adjust fa-fw"></i>
+      </button>
+    
   </div>
 </header>
+    <div id="main-wrapper" class="d-flex justify-content-center">
+      <div class="container d-flex flex-column px-xxl-5">
 
 
         <div class="row flex-grow-1">
@@ -449,17 +436,13 @@
 <div id="page-tag">
   <h1 class="ps-lg-2">
     <i class="fa fa-tag fa-fw text-muted"></i>
-    
-    Fonctions génératrices
+    fongen
     <span class="lead text-muted ps-2">1</span>
   </h1>
   <ul class="content ps-0">
     
       <li class="d-flex justify-content-between px-md-3">
-        <a href="/posts/ccmp2020mp2/">
-          Comportement asymptotique dans une marche aléatoire
-     (sujet ccmp) 
-        </a>
+        <a href="/posts/ccmp2020mp2/">Comportement asymptotique dans une marche aléatoire</a>
         <span class="dash flex-grow-1"></span>
         <!--
   Date format snippet
@@ -492,10 +475,12 @@
           </main>
 
           <!-- panel -->
-          <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
+          <aside
+            aria-label="Panel"
+            id="panel-wrapper"
+            class="col-xl-3 ps-2 text-muted">
             <div class="access">
-                
-                  <!-- Get 5 last posted/updated posts -->
+              <!-- Get 5 last posted/updated posts -->
 
 
 
@@ -518,7 +503,14 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/centrale2021mp1/">Loi du demi-cercle</a>
+          <a href="/posts/sympy/">Initiation à Sympy</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/ccmp2020mp2/">Comportement asymptotique dans une marche aléatoire</a>
         </li>
       
         
@@ -542,19 +534,12 @@
           <a href="/posts/centrale2018mp2/">Principe du maximum</a>
         </li>
       
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/ccmp2020mp1/">Espaces nilpotents de matrices</a>
-        </li>
-      
     </ul>
   </section>
   <!-- #access-lastmod -->
 
 
-                  <!-- The trending tags list -->
+              <!-- The trending tags list -->
 
 
 
@@ -574,6 +559,17 @@
     
     
     
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
     
   
     
@@ -589,95 +585,6 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
     
   
@@ -685,10 +592,7 @@
     
     
     
-  
-    
-    
-    
+      
     
   
     
@@ -754,6 +658,15 @@
     
     
     
+      
+    
+  
+    
+    
+    
+    
+      
+    
   
     
     
@@ -808,6 +721,126 @@
     
     
     
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -848,65 +881,14 @@
     
     
     
-  
-    
-    
-    
+      
     
   
     
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -935,20 +917,7 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -974,65 +943,14 @@
     
     
     
-  
-    
-    
-    
+      
     
   
     
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -1061,20 +979,7 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -1088,128 +993,6 @@
     
     
     
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
   
     
     
@@ -1241,41 +1024,40 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/alglin/">alglin</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/algbil/">algbil</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/equdif/">equdif</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/alglin/">alglin</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/prodis/">prodis</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/intpar/">intpar</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/redmat/">redmat</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/serent/">serent</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/algbil/">algbil</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/caldif/">caldif</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/intgen/">intgen</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/calmat/">calmat</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/calmat/">calmat</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/equdif/">equdif</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/intpar/">intpar</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/marale/">marale</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/serent/">serent</a>
       
     </div>
   </section>
 
 
-                
-              </div>
+            </div>
 
             
           </aside>
@@ -1288,33 +1070,35 @@
 
             <!-- The Footer -->
 
-<footer
-  aria-label="Site Info"
-  class="
+<footer aria-label="Site Info" class="
     d-flex flex-column justify-content-center text-muted
     flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
-  "
->
+  ">
   <p>©
     <time>2025</time>
 
     
-      <a href="https://github.com/texbouja">Sadik Boujaida</a>.
+      <a href="https://twitter.com/username">Sadik Boujaida</a>.
     
 
     
       <span
         data-bs-toggle="tooltip"
         data-bs-placement="top"
-        title="Sauf mention contraire, les articles de ce site sont publiés sous la licence Creative Commons Attribution 4.0 International (CC BY 4.0) par l'auteur."
-      >Certains droits réservés.</span>
+        title="Sauf mention contraire, les articles de ce site sont publiés sous la licence Creative Commons Attribution 4.0 International (CC BY 4.0) par l'auteur.">Certains droits réservés.</span>
     
   </p>
 
-  <p>
+  <p>Propulsé par <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> avec le thème <a
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="v0.1"
+        href="https://github.com/textbouja/jekyll-theme-cpgem"
+        target="_blank"
+        rel="noopener"
+      >CPGEM</a>
   </p>
 </footer>
-
           </div>
         </div>
 
@@ -1344,11 +1128,6 @@
     
     
     
-  
-    
-    
-    
-    
       
         
         
@@ -1358,40 +1137,7 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -1407,46 +1153,6 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
     
   
@@ -1454,10 +1160,7 @@
     
     
     
-  
-    
-    
-    
+      
     
   
     
@@ -1523,6 +1226,15 @@
     
     
     
+      
+    
+  
+    
+    
+    
+    
+      
+    
   
     
     
@@ -1577,6 +1289,126 @@
     
     
     
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1617,65 +1449,14 @@
     
     
     
-  
-    
-    
-    
+      
     
   
     
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -1704,20 +1485,7 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -1743,65 +1511,14 @@
     
     
     
-  
-    
-    
-    
+      
     
   
     
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -1830,20 +1547,7 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
+      
     
   
     
@@ -1857,128 +1561,6 @@
     
     
     
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
   
     
     
@@ -2010,34 +1592,34 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/alglin/">alglin</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/algbil/">algbil</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/equdif/">equdif</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/alglin/">alglin</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/prodis/">prodis</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/intpar/">intpar</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/redmat/">redmat</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/serent/">serent</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/algbil/">algbil</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/caldif/">caldif</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/intgen/">intgen</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/calmat/">calmat</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/calmat/">calmat</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/equdif/">equdif</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/intpar/">intpar</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/marale/">marale</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/serent/">serent</a>
       
     </div>
   </section>
@@ -2047,12 +1629,14 @@
     <div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div>
   </div>
 </div>
-
       </div>
 
       <aside aria-label="Scroll to Top">
-        <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow">
-          <i class="fas fa-angle-up"></i>
+        <button
+          id="back-to-top"
+          type="button"
+          class="btn btn-lg btn-box-shadow">
+          <i class="fas fa-up-long"></i>
         </button>
       </aside>
     </div>
@@ -2107,7 +1691,7 @@
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
       json: '/assets/js/data/search.json',
-      searchResultTemplate: '  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">    <header>      <h2><a href="{url}">{title}</a></h2>      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}      </div>    </header>    <p>{snippet}</p>  </article>',
+      searchResultTemplate: '  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">    <header>      <h2><a href="{url}">{title}</a></h2>      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}      </div>    </header>    <p>{content}</p>  </article>',
       noResultsText: '<p class="mt-5">Oups ! Aucun résultat trouvé.</p>',
       templateMiddleware: function(prop, value, template) {
         if (prop === 'categories') {
@@ -2132,4 +1716,3 @@
 
   </body>
 </html>
-

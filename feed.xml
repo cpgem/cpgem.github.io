@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://cpgem.github.io/</id>
+  <id>http://localhost:4000/</id>
   <title>CPGEM</title>
-  <subtitle>Site web pour les maths en classes préparatoires. Simple mais moderne et efficace. Accessible et libre, pour toujours.</subtitle>
-  <updated>2025-05-04T23:49:13+01:00</updated>
+  <subtitle>Site web dédié aux mathématiques enseignées dans les classes préparatoires scientifiques.</subtitle>
+  <updated>2025-06-13T10:35:55+01:00</updated>
   <author>
     <name>Sadik Boujaida</name>
-    <uri>https://cpgem.github.io/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://cpgem.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="fr-FR"
-    href="https://cpgem.github.io/"/>
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Sadik Boujaida </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,14 +20,36 @@
 
   
   <entry>
+    <title>Initiation à Sympy</title>
+    <link href="http://localhost:4000/posts/sympy/" rel="alternate" type="text/html" title="Initiation à Sympy" />
+    <published>2025-06-13T00:00:00+01:00</published>
+  
+    <updated>2025-06-13T00:00:00+01:00</updated>
+  
+    <id>http://localhost:4000/posts/sympy/</id>
+    <content type="text/html" src="http://localhost:4000/posts/sympy/" />
+    <author>
+      <name>Sadik Boujaida</name>
+    </author>
+
+  
+    
+  
+
+  <summary>une présentation de la bibliothèque de calcul symbolique Sympy</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Loi du demi-cercle</title>
-    <link href="https://cpgem.github.io/posts/centrale2021mp1/" rel="alternate" type="text/html" title="Loi du demi-cercle" />
+    <link href="http://localhost:4000/posts/centrale2021mp1/" rel="alternate" type="text/html" title="Loi du demi-cercle" />
     <published>2025-04-01T00:00:00+00:00</published>
   
-    <updated>2025-05-04T18:46:45+01:00</updated>
+    <updated>2025-06-04T09:05:38+01:00</updated>
   
-    <id>https://cpgem.github.io/posts/centrale2021mp1/</id>
-    <content type="text/html" src="https://cpgem.github.io/posts/centrale2021mp1/" />
+    <id>http://localhost:4000/posts/centrale2021mp1/</id>
+    <content type="text/html" src="http://localhost:4000/posts/centrale2021mp1/" />
     <author>
       <name>Sadik Boujaida</name>
     </author>
@@ -40,20 +62,20 @@
     
   
 
-  <summary>Concours : ccs | Session : 2021 | Filière : MP | Épreuve : Maths 1</summary>
+  <summary>Théorème   Théorème fictif du nom de l’auteur du corrigé.      de Lucas   Théorème fictif du nom de l’auteur du corrigé.     de Lucas  Théorème fictif du nom de l&amp;#39;auteur du corrigé.     de Lucas  Théorème fictif du nom de l&amp;#39;auteur du corrigé.          Corrigé proposé par : Édouard Lucas</summary>
 
   </entry>
 
   
   <entry>
     <title>Matrices symplectiques</title>
-    <link href="https://cpgem.github.io/posts/centrale2022mp1/" rel="alternate" type="text/html" title="Matrices symplectiques" />
+    <link href="http://localhost:4000/posts/centrale2022mp1/" rel="alternate" type="text/html" title="Matrices symplectiques" />
     <published>2025-03-30T01:49:00+00:00</published>
   
-    <updated>2025-04-19T23:43:03+01:00</updated>
+    <updated>2025-06-04T09:05:38+01:00</updated>
   
-    <id>https://cpgem.github.io/posts/centrale2022mp1/</id>
-    <content type="text/html" src="https://cpgem.github.io/posts/centrale2022mp1/" />
+    <id>http://localhost:4000/posts/centrale2022mp1/</id>
+    <content type="text/html" src="http://localhost:4000/posts/centrale2022mp1/" />
     <author>
       <name>Sadik Boujaida</name>
     </author>
@@ -66,44 +88,20 @@
     
   
 
-  <summary>Concours : ccs | Session : 2022 | Filière : MP | Épreuve : Maths 1</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Commentaires</title>
-    <link href="https://cpgem.github.io/posts/comments/" rel="alternate" type="text/html" title="Commentaires" />
-    <published>2025-03-26T00:22:00+00:00</published>
-  
-    <updated>2025-03-26T00:22:00+00:00</updated>
-  
-    <id>https://cpgem.github.io/posts/comments/</id>
-    <content type="text/html" src="https://cpgem.github.io/posts/comments/" />
-    <author>
-      <name>Sadik Boujaida</name>
-    </author>
-
-  
-    
-    <category term="À propos" />
-    
-  
-
-  <summary>Comment rédiger un commentaire ?</summary>
+  <summary>Corrigé proposé par : Jennifer Mirebeau</summary>
 
   </entry>
 
   
   <entry>
     <title>Espaces nilpotents de matrices</title>
-    <link href="https://cpgem.github.io/posts/ccmp2020mp1/" rel="alternate" type="text/html" title="Espaces nilpotents de matrices" />
+    <link href="http://localhost:4000/posts/ccmp2020mp1/" rel="alternate" type="text/html" title="Espaces nilpotents de matrices" />
     <published>2025-03-25T21:58:00+00:00</published>
   
-    <updated>2025-04-19T23:43:03+01:00</updated>
+    <updated>2025-06-04T09:05:38+01:00</updated>
   
-    <id>https://cpgem.github.io/posts/ccmp2020mp1/</id>
-    <content type="text/html" src="https://cpgem.github.io/posts/ccmp2020mp1/" />
+    <id>http://localhost:4000/posts/ccmp2020mp1/</id>
+    <content type="text/html" src="http://localhost:4000/posts/ccmp2020mp1/" />
     <author>
       <name>Sadik Boujaida</name>
     </author>
@@ -116,33 +114,33 @@
     
   
 
-  <summary>Concours : ccmp | Session : 2020 | Filière : MP | Épreuve : Maths 1</summary>
+  <summary>Le corrigé est rédigé par Ahmed Hamani.</summary>
 
   </entry>
 
   
   <entry>
-    <title>Exponentielle matricielle</title>
-    <link href="https://cpgem.github.io/posts/expmat/" rel="alternate" type="text/html" title="Exponentielle matricielle" />
-    <published>2025-03-20T03:14:00+00:00</published>
+    <title>Principe du maximum</title>
+    <link href="http://localhost:4000/posts/centrale2018mp2/" rel="alternate" type="text/html" title="Principe du maximum" />
+    <published>2025-03-13T21:09:00+00:00</published>
   
-    <updated>2025-03-20T03:14:00+00:00</updated>
+    <updated>2025-06-04T09:05:38+01:00</updated>
   
-    <id>https://cpgem.github.io/posts/expmat/</id>
-    <content type="text/html" src="https://cpgem.github.io/posts/expmat/" />
+    <id>http://localhost:4000/posts/centrale2018mp2/</id>
+    <content type="text/html" src="http://localhost:4000/posts/centrale2018mp2/" />
     <author>
       <name>Sadik Boujaida</name>
     </author>
 
   
     
-    <category term="PRÉPARATION 2025" />
+    <category term="CONCOURS" />
     
-    <category term="CONCENTRATION" />
+    <category term="PRÉPARATION 2025" />
     
   
 
-  <summary>Sujets de concours autour de l&amp;#39;exponentielle matricielle</summary>
+  <summary>page web dédié : [HTML]   Énoncé avec corrigé : [PDF avec hyperliens]   énoncé original : [PDF]   rapport de l’épreuve : [PDF]      Les solutions sont gracieusement offertes par M.Sadik Omar, professeur agrégé au lycée Moulay Driss, Fès.</summary>
 
   </entry>
 

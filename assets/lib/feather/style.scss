@@ -1,0 +1,415 @@
+@use "variables" as *;
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?r8xq2d');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?r8xq2d#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?r8xq2d') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?r8xq2d') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?r8xq2d##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.fea {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fea-airplay {
+  &:before {
+    content: $fea-airplay; 
+  }
+}
+.fea-alert-circle {
+  &:before {
+    content: $fea-alert-circle; 
+  }
+}
+.fea-alert-octagon {
+  &:before {
+    content: $fea-alert-octagon; 
+  }
+}
+.fea-alert-triangle {
+  &:before {
+    content: $fea-alert-triangle; 
+  }
+}
+.fea-archive {
+  &:before {
+    content: $fea-archive; 
+  }
+}
+.fea-arrow-down {
+  &:before {
+    content: $fea-arrow-down; 
+  }
+}
+.fea-arrow-down-left {
+  &:before {
+    content: $fea-arrow-down-left; 
+  }
+}
+.fea-arrow-down-right {
+  &:before {
+    content: $fea-arrow-down-right; 
+  }
+}
+.fea-arrow-left {
+  &:before {
+    content: $fea-arrow-left; 
+  }
+}
+.fea-arrow-right {
+  &:before {
+    content: $fea-arrow-right; 
+  }
+}
+.fea-arrow-up {
+  &:before {
+    content: $fea-arrow-up; 
+  }
+}
+.fea-arrow-up-left {
+  &:before {
+    content: $fea-arrow-up-left; 
+  }
+}
+.fea-arrow-up-right {
+  &:before {
+    content: $fea-arrow-up-right; 
+  }
+}
+.fea-bookmark {
+  &:before {
+    content: $fea-bookmark; 
+  }
+}
+.fea-check {
+  &:before {
+    content: $fea-check; 
+  }
+}
+.fea-check-circle {
+  &:before {
+    content: $fea-check-circle; 
+  }
+}
+.fea-check-square {
+  &:before {
+    content: $fea-check-square; 
+  }
+}
+.fea-chevron-down {
+  &:before {
+    content: $fea-chevron-down; 
+  }
+}
+.fea-chevron-left {
+  &:before {
+    content: $fea-chevron-left; 
+  }
+}
+.fea-chevron-right {
+  &:before {
+    content: $fea-chevron-right; 
+  }
+}
+.fea-chevron-up {
+  &:before {
+    content: $fea-chevron-up; 
+  }
+}
+.fea-chevrons-down {
+  &:before {
+    content: $fea-chevrons-down; 
+  }
+}
+.fea-chevrons-left {
+  &:before {
+    content: $fea-chevrons-left; 
+  }
+}
+.fea-chevrons-right {
+  &:before {
+    content: $fea-chevrons-right; 
+  }
+}
+.fea-chevrons-up {
+  &:before {
+    content: $fea-chevrons-up; 
+  }
+}
+.fea-columns {
+  &:before {
+    content: $fea-columns; 
+  }
+}
+.fea-copy {
+  &:before {
+    content: $fea-copy; 
+  }
+}
+.fea-corner-down-left {
+  &:before {
+    content: $fea-corner-down-left; 
+  }
+}
+.fea-corner-down-right {
+  &:before {
+    content: $fea-corner-down-right; 
+  }
+}
+.fea-corner-left-down {
+  &:before {
+    content: $fea-corner-left-down; 
+  }
+}
+.fea-corner-right-down {
+  &:before {
+    content: $fea-corner-right-down; 
+  }
+}
+.fea-corner-right-up {
+  &:before {
+    content: $fea-corner-right-up; 
+  }
+}
+.fea-corner-up-left {
+  &:before {
+    content: $fea-corner-up-left; 
+  }
+}
+.fea-corner-up-right {
+  &:before {
+    content: $fea-corner-up-right; 
+  }
+}
+.fea-credit-card {
+  &:before {
+    content: $fea-credit-card; 
+  }
+}
+.fea-crop {
+  &:before {
+    content: $fea-crop; 
+  }
+}
+.fea-disc {
+  &:before {
+    content: $fea-disc; 
+  }
+}
+.fea-download {
+  &:before {
+    content: $fea-download; 
+  }
+}
+.fea-edit {
+  &:before {
+    content: $fea-edit; 
+  }
+}
+.fea-edit-2 {
+  &:before {
+    content: $fea-edit-2; 
+  }
+}
+.fea-filter {
+  &:before {
+    content: $fea-filter; 
+  }
+}
+.fea-folder {
+  &:before {
+    content: $fea-folder; 
+  }
+}
+.fea-folder-minus {
+  &:before {
+    content: $fea-folder-minus; 
+  }
+}
+.fea-globe {
+  &:before {
+    content: $fea-globe; 
+  }
+}
+.fea-hash {
+  &:before {
+    content: $fea-hash; 
+  }
+}
+.fea-home {
+  &:before {
+    content: $fea-home; 
+  }
+}
+.fea-image {
+  &:before {
+    content: $fea-image; 
+  }
+}
+.fea-layers {
+  &:before {
+    content: $fea-layers; 
+  }
+}
+.fea-layout {
+  &:before {
+    content: $fea-layout; 
+  }
+}
+.fea-link {
+  &:before {
+    content: $fea-link; 
+  }
+}
+.fea-link-2 {
+  &:before {
+    content: $fea-link-2; 
+  }
+}
+.fea-list {
+  &:before {
+    content: $fea-list; 
+  }
+}
+.fea-log-in {
+  &:before {
+    content: $fea-log-in; 
+  }
+}
+.fea-log-out {
+  &:before {
+    content: $fea-log-out; 
+  }
+}
+.fea-map {
+  &:before {
+    content: $fea-map; 
+  }
+}
+.fea-maximize {
+  &:before {
+    content: $fea-maximize; 
+  }
+}
+.fea-maximize-2 {
+  &:before {
+    content: $fea-maximize-2; 
+  }
+}
+.fea-menu {
+  &:before {
+    content: $fea-menu; 
+  }
+}
+.fea-minimize {
+  &:before {
+    content: $fea-minimize; 
+  }
+}
+.fea-minimize-2 {
+  &:before {
+    content: $fea-minimize-2; 
+  }
+}
+.fea-monitor {
+  &:before {
+    content: $fea-monitor; 
+  }
+}
+.fea-moon {
+  &:before {
+    content: $fea-moon; 
+  }
+}
+.fea-more-horizontal {
+  &:before {
+    content: $fea-more-horizontal; 
+  }
+}
+.fea-more-vertical {
+  &:before {
+    content: $fea-more-vertical; 
+  }
+}
+.fea-power {
+  &:before {
+    content: $fea-power; 
+  }
+}
+.fea-search {
+  &:before {
+    content: $fea-search; 
+  }
+}
+.fea-share {
+  &:before {
+    content: $fea-share; 
+  }
+}
+.fea-sliders {
+  &:before {
+    content: $fea-sliders; 
+  }
+}
+.fea-smartphone {
+  &:before {
+    content: $fea-smartphone; 
+  }
+}
+.fea-square {
+  &:before {
+    content: $fea-square; 
+  }
+}
+.fea-sun {
+  &:before {
+    content: $fea-sun; 
+  }
+}
+.fea-tablet {
+  &:before {
+    content: $fea-tablet; 
+  }
+}
+.fea-tag {
+  &:before {
+    content: $fea-tag; 
+  }
+}
+.fea-target {
+  &:before {
+    content: $fea-target; 
+  }
+}
+.fea-trash-2 {
+  &:before {
+    content: $fea-trash-2; 
+  }
+}
+.fea-zoom-in {
+  &:before {
+    content: $fea-zoom-in; 
+  }
+}
+.fea-zoom-out {
+  &:before {
+    content: $fea-zoom-out; 
+  }
+}
+
